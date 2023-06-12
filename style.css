@@ -1,0 +1,158 @@
+h1 {
+color: rgb(111, 13, 111);
+}
+
+h2 {
+    color: blueviolet;
+}
+
+h3 {
+    color: rgb(214, 159, 228);
+}
+h6 {
+    color: rgb(161, 92, 211);
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    width: 50%;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+canvas {
+    background-color: rgb(137, 47, 162);
+    height: 100%;
+    width: 100%;
+}
+
+
+#aftonFam {
+    height: 30vw;
+    width: 40vw;
+}
+
+#robot {
+    height: 30vw;
+    width: 40vw; 
+}
+h3 {
+    margin: 3px;
+    font-size: 1.8vw;
+}
+   
+.loreDiv {
+    width: 50%;
+}
+
+.bigLore {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    border:13px solid purple ;
+    border-radius:50px ;
+}
+
+img:hover{
+    border: 13px solid rgb(211, 115, 211);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(55, 3, 57);
+}
+
+button {
+    height: 45px;
+    width: 75px;
+    background-color: rgb(215, 171, 248);
+    font-size: 18px;
+    transition: 1s;
+}
+
+.timeline:hover {
+background-color: rgb(100, 15, 128);
+animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.cir{
+    display: flex;
+}
+
+.circle-words{
+    padding-left: 20px;
+    color: rgb(235, 170, 245);
+    width: 40%;
+    text-align: center;
+    font-size: 2vw
+}
+
+
+
+#biteOf83 {
+    width: 50vw;
+}
+
+#kid {
+    width:  35vw;
+    height: 25vw;
+    
+}
+
+
+
+#contS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
